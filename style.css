@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.window {
+	width: 920px;
+	height: 500px;
+	margin: 20px auto 0;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 10px #AAAAAA;
+}
+
+div.info p {
+	text-align: center;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size: 42px;
+	font-weight: normal;
+}
+
+.images {
+	display: flex;
+	transition: all 1s;
+}
+
+.images>img {
+	width: 100%;
+}
